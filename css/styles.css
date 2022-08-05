@@ -1,0 +1,156 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 5.625rem; /* 16px = 100% = 1em = 1rem [It is recommended to use rem] */
+    font-family: 'Sacramento', cursive;
+    color: #0e3b3b;
+    line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: #227777;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  width: 3%;
+  border: dotted grey;
+  border-width: 5px;
+  border-bottom: none;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #FF8B8B;
+  position: relative;
+  padding-top: 100px;
+}
+
+.name {
+  width: 25%;
+  margin: 50px auto 0 auto;
+}
+
+.deve {
+  color: #F9F5EB;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.love {
+  color: red;
+}
+
+.last1 {
+  margin-bottom: 0;
+}
+
+.last2 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 550px;
+  top: 50px;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 550px;
+  bottom: 300px;
+}
+
+.profile {
+  margin: 80px 0 80px 0;
+}
+
+.profile p {
+  width: 13%;
+  margin: auto;
+}
+
+.skills {
+  margin: 80px 0 80px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.idea-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.equality-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin-top: 80px;
+}
+
+.btn {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+.bottom-container {
+  margin-top: 100px;
+  padding: 50px 0 50px 0;
+  background-color: #66BFBF;
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
